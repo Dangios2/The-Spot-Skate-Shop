@@ -1,0 +1,171 @@
+:root{
+  --violet: #4d5382;
+  --woods: #5b7553;
+  --pink: #cfc0bd;
+  background: var(--pink);
+  padding-bottom: 10px;
+
+}
+{
+
+    text-align: center;
+    
+    }
+    a :hover{ 
+  text-decoration: none;
+  color: black;
+}
+
+
+nav menu button a:active{
+  color:white;
+  outline: none;
+}
+nav menu button a:visited{
+  color:whitesmoke;
+}
+nav menu button a:hover{color:black;}
+
+    body {
+    text-align: center;
+    }
+    
+    .title{
+      font-size: 30px;
+      align-items: left;
+      margin-right: auto;
+    }
+    
+    /* Styling */
+    header nav{
+      /*top| bottom | left | right */
+      /*top&bottom | left&right */
+      padding: 30px;
+  }
+    header{width:1440px;
+      height: 100px;
+      align:center;
+      padding-bottom: 45px;
+    }
+    header{margin-left: -45px;
+      margin-right:-15px;
+}
+    body {
+      margin: auto;
+      width: 1370px; 
+      padding: 0px;
+      font-family: 'Lexend Deca', sans-serif; 
+      color: #2E475D;    
+    }
+    #news-story{
+     text-size-adjust: 18p;
+      width: 500px;
+      align-items:center;
+      margin: auto;}
+    .Shop{
+      width: 60px;
+      align-items:center;
+      margin: auto;
+    }
+.Shop button a: {color: black;}
+.Shop div a:visited{color: black}
+.Shop button a:active{color:black}
+button:hover{
+  outline-color:var(--violet) ;
+  outline-width: 3px;
+  outline-style: solid;
+  cursor: pointer;
+  color: black
+}
+     #image1 {
+      width: 80%;
+   box-align: center;
+   align-items: center;
+   
+    }
+    nav{ 
+      padding: 10px 100px;
+      display: flexbox ; justify-content: space-between;
+      background-color:var(--woods); 
+     
+    }
+.primary {
+  
+    background-color: var(--woods); 
+    text-decoration: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+  }
+  nav menu{
+  list-style: none;
+  }
+  nav menu menu{
+    display: none;
+}
+
+  nav menu button:hover + menu {
+    display: block;
+    position: absolute;
+    background-color: var(--woods);
+    color: var(--woods);
+    text-decoration: underline;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+nav menu button:hover + menu a{
+    color: whitesmoke ;
+    display: block;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+nav menu li > a{
+  color:whitesmoke ;
+}
+
+
+nav menu {
+  display: flex;
+  align-items: center;
+  margin-bottom: auto;
+  justify-content: space-around;
+
+}
+a{text-decoration: none;}
+.Shop { display: flex;
+  align-items: center;
+  margin-bottom: auto;
+  justify-content: space-around;
+text-decoration: none;
+}
+.image{
+  max-width: 250px;
+  padding: 10px;
+    height: auto;
+    left: 0px;
+    right: 0px;
+    
+}
+#cruiser-shop {
+  align-items: center;
+  padding: 30px;
+  width: 50%;
+  background-color: #4d5382;
+
+}
+
+
+
+
+#description { text-align: left;
+  padding-bottom: 10%;
+  padding-left: 60px;
+}
